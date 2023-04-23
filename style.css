@@ -14,10 +14,11 @@ button {
 	background-color: orange;
 	font-weight: 700;
 	font-size: 40px;
-	border: 5px solid;
+	border: 5px solid black;
 	border-radius: 10px;
 	padding: 10px;
 	transition: all 400ms ease;
+	margin: 15px;
 }
 button a {
 	text-decoration: none;
@@ -38,6 +39,7 @@ footer a {
 }
 .btn-container {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
 #myVideo {
